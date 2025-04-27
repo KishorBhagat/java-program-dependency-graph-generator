@@ -27,5 +27,5 @@
     java -cp ".;../lib/javaparser-core-3.26.4.jar;../lib/json-20230227.jar" DependencyGraph <YourTargetJavaFile>
     ```
     * Replace `<YourTargetJavaFile>` with your file name without any `.java`  extension.
-
+    * A `dependencies.json` file will be created in the `temp` folder.
 **Make sure:** Your `<YourTargetJavaFile>.java` file is in the `temp` folder in project's root directory.
